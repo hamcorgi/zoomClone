@@ -1,0 +1,20 @@
+doctype html
+html(lang="ko")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Noom
+        link(rel="stylesheet", href="https://unpkg.com/mvp.css")
+    body 
+        header 
+            h1 It work!
+        main 
+        form#nickName
+            input(type="text", required, placeholder="choose a nickname")
+            button save
+        form#message
+            ul
+            input(type="text", required, placeholder="wirte a msg")
+            button send 
+        
+        script(src='/public/js/app.js')
